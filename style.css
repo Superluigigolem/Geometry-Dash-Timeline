@@ -72,7 +72,7 @@ img {
     display: grid;
     grid-template-rows: 30% 25% 40px 60px auto;
     width: 380px;
-    height: 270vh;
+    height: 260vh;
     padding: 110px 5vh 5vh;
 }
 
