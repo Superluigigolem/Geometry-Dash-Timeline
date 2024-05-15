@@ -72,7 +72,7 @@ img {
     display: grid;
     grid-template-rows: 30% 25% 40px 60px auto;
     width: 380px;
-    height: 130vh;
+    height: 90vh;
     padding: 110px 5vh 5vh;
 }
 
@@ -93,7 +93,7 @@ img {
 .line {
     position: relative;
     top: calc(5vh - 1.5vh - 3px);
-    left: 9vh;
+    left: 8vh;
     height: 7px;
     width: calc(435px - 14vh - 3vh);
     background-color: #f96e75;
