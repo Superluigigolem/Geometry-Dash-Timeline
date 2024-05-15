@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(/resources/fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(/resources/fonts/Merriweather-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3b4a6b;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #f0d43a;
+	  font-size: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+	   font-size: 26px;
+}
+
+p {
+    text-align: left;
+    font-family: "Merriweather", serif;
+    padding-top: 30px;
+    line-height: 1.25;
+}
+
+#header {
+    position: fixed;
+    width: 100vw;
+    padding: 15px;
+    background-color: #f23557;
+    box-shadow: 0 0 10px #000;
+}
+
+.section:nth-child(odd) {
+    background-color: #3b4a6b;
+}
+
+.section:nth-child(even) {
+    background-color: #22b2da;
+}
+
+img {
+    align-self: end;
+    justify-self: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section {
+    display: grid;
+    grid-template-rows: 30% 25% 40px 60px auto;
+    width: 380px;
+    height: 100vh;
+    padding: 110px 5vh 5vh;
+}
+
+#section-container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.node {
+    width: 10vh;
+    height: 10vh;
+    place-self: center;
+    border-radius: 50%;
+    background-color: #fead15;
+    border: solid 10px #fedb29;
+}
+
+.line {
+    position: relative;
+    top: calc(5vh - 1.5vh - 3px);
+    left: 8vh;
+    height: 9px;
+    width: calc(430px - 14vh - 3vh);
+    background-color: #f96e75;
+}
