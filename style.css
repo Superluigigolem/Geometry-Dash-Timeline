@@ -93,8 +93,8 @@ img {
 .line {
     position: relative;
     top: calc(5vh - 1.5vh - 3px);
-    left: 5vh;
+    left: 7vh;
     height: 7px;
-    width: calc(405px - 14vh - 3vh);
+    width: calc(415px - 14vh - 3vh);
     background-color: #f96e75;
 }
